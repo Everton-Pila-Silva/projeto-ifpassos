@@ -10,6 +10,7 @@
     <link href="css/style.css" rel="stylesheet">
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head>
 
 <body onLoad="regressiva()">
@@ -19,10 +20,10 @@
          ------------------------------------------------         
     -->
     <nav>
-        <li><a onclick="descer('sobre')">Encomp</a></li>
+        <li><a onclick="descer('sobre')">Informações</a></li>
         <li><a href="#" onclick="descer('programacao')">Programação</a></li>
         <li><a href="#" onclick="descer('equipe')">Equipe</a></li>
-        <!-- <li><a href="https://www.even3.com.br/viencomp/" target="_blank">Inscrições</a></li>-->
+        <li><a href="https://www.even3.com.br/viencomp/" target="_blank">Inscrições</a></li>
     </nav>
 
     <!-- 
@@ -32,9 +33,8 @@
     -->
     <section class="header">
         <img id="logotipo" src="img/logo.png" style="width: 20%;">
+        <p> 15/10 a 20/10 </p>
         <p id="eventoOnline"> Evento Online </p>
-        <p> 28/09 a 02/10 </p>
-
         <div>
             <table class="contagem">
                 <tr>
@@ -75,10 +75,10 @@
          -------------------------------------------------         
     -->
     <section class="sobre">
-        <h2 id="titulo"> O que é o Encomp</h2>
+        <h2 id="titulo"> O que é o IF++</h2>
         <div class="conteudoSbr">
             <div id="divImg">
-                <img id="img_sobre" src="imagens/time3.png">
+                <img id="img_sobre" src="img/time3.png">
             </div>
             <div id="divTxt">
                 <p> Encomp é um encontro anual da computação organizado diretamente por professores e alunos do
@@ -111,7 +111,7 @@
             </div>
             <div id="divProg">
                 <div id="progInd">
-                    <img src="imagens/minicurso.png" id="icone">
+                    <img src="img/minicurso.png" id="icone">
                     <div id="descProg">
                         <p id="tituloProg"> Minicurso Node Js </p>
                         <p id="horario"> 13:00 - 17:00 </p>
@@ -122,7 +122,7 @@
                 </div>
 
                 <div id="progInd">
-                    <img src="imagens/minicurso.png" id="icone">
+                    <img src="img/minicurso.png" id="icone">
                     <div id="descProg">
                         <p id="tituloProg"> Minicurso Computação Quântica </p>
                         <p id="horario"> 15:00 - 17:00 </p>
@@ -134,7 +134,7 @@
                 </div>
 
                 <div id="progInd">
-                    <img src="imagens/palestra.png" id="icone">
+                    <img src="img/palestra.png" id="icone">
                     <div id="descProg">
                         <p id="tituloProg"> Palestra Análise de Negócios </p>
                         <p id="horario"> 19:00 - 21:00 </p>
@@ -159,27 +159,27 @@
         <h2 id="titulo"> Equipe </h2>
         <div class="tudo">
             <div class="membro" id="albertM">
-                <img src="imagens/albert.png" onmouseover="MostraTexto('albert')" onMouseOut="TiraTexto('albert')">
+                <img src="img/albert.png" onmouseover="MostraTexto('albert')" onMouseOut="TiraTexto('albert')">
                 <span id="albert"> Albert Medeiros - 6° período </span>
             </div>
             <div class="membro" id="brunoM">
-                <img src="imagens/bruno.png" onmouseover="MostraTexto('bruno')" onMouseOut="TiraTexto('bruno')">
+                <img src="img/bruno.png" onmouseover="MostraTexto('bruno')" onMouseOut="TiraTexto('bruno')">
                 <span id="bruno"> Bruno Silveira - 8° período </span>
             </div>
             <div class="membro" id="marisaM">
-                <img src="imagens/marisa.png" onmouseover="MostraTexto('marisa')" onMouseOut="TiraTexto('marisa')">
+                <img src="img/marisa.png" onmouseover="MostraTexto('marisa')" onMouseOut="TiraTexto('marisa')">
                 <span id="marisa"> Marisa Vieira - 8° período </span>
             </div>
             <div class="membro" id="amandaM">
-                <img src="imagens/amanda.png" onmouseover="MostraTexto('amanda')" onMouseOut="TiraTexto('amanda')">
+                <img src="img/amanda.png" onmouseover="MostraTexto('amanda')" onMouseOut="TiraTexto('amanda')">
                 <span id="amanda"> Amanda Valério - 6° período </span>
             </div>
             <div class="membro" id="matheusM">
-                <img src="imagens/matheus.png" onmouseover="MostraTexto('matheus')" onMouseOut="TiraTexto('matheus')">
+                <img src="img/matheus.png" onmouseover="MostraTexto('matheus')" onMouseOut="TiraTexto('matheus')">
                 <span id="matheus"> Matheus Simões - 6° período </span>
             </div>
             <div class="membro" id="vanessaM">
-                <img src="imagens/vanessa.png" onmouseover="MostraTexto('vanessa')" onMouseOut="TiraTexto('vanessa')">
+                <img src="img/vanessa.png" onmouseover="MostraTexto('vanessa')" onMouseOut="TiraTexto('vanessa')">
                 <span id="vanessa"> Vanessa Rodrigues - 8° período </span>
             </div>
         </div>
@@ -196,9 +196,9 @@
         <div class="conteudodiv">
             ©2020 Desenvolvido por Organização EnComp 2020
             <div class="contatos">
-                <a href="https://www.instagram.com/bccpassos/" target="_blank"> <img src="imagens/instagram.png"> </a>
-                <a href="https://www.facebook.com/bcc.passos/" target="_blank"> <img src="imagens/facebook.png"> </a>
-                <a href="mailto:encomp2020@gmail.com" target="_blank"> <img src="imagens/email.png"> </a>
+                <a href="https://www.instagram.com/bccpassos/" target="_blank"> <img src="img/instagram.png"> </a>
+                <a href="https://www.facebook.com/bcc.passos/" target="_blank"> <img src="img/facebook.png"> </a>
+                <a href="mailto:encomp2020@gmail.com" target="_blank"> <img src="img/email.png"> </a>
             </div>
         </div>
     </footer>
