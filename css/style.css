@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/*
+    -------- CSS GERAL --------
+*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+body, nav, .conteudoSbr, .header, .datas, .conteudProg, #progInd, .tudo, .equipe{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*
+    -------- CSS NAV --------
+*/
+
+nav{    
+    background-color: #0973b9;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-family: 'Bebas Neue', cursive;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    padding-top: 15px;
+    z-index: 1;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav li{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 200%;
+}
+
+/*
+    -------- CSS HEADER --------
+*/
+.header{
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin: 50px;
+}
+.header p{
+    font-size: 45px;
+    margin: 0;
+    max-width: 110vh;
+}
+#logotipo{
+    width: 48vw;
+    color: black;
+    margin-bottom: 40px;
+} 
+#eventoOnline{
+    background-color: #777;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    width: 400px;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;    
+}
+.numero{
+    font-family: 'Orbitron';
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+.subHours{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+.contagem{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+    -------- CSS SOBRE --------
+*/
+.sobre{
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.conteudoSbr{
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#divImg{
+    width: 400px;
+}
+
+#divTxt{
+    width: 600px;
+    text-align: justify;
+    margin: 30px;
+    color: #555;
+}
+
+#img_sobre{
+    width: 400px;
+}
+
+/*
+    -------- CSS PROGRAMAÇÃO --------
+*/
+.programacao{
+    background-color: #f6f6f6;
+    width: 100%; 
+    font-family: 'Lato', sans-serif;
+}
+.arredondado{
+    background-color: #f6f6f6;
+    border-top-right-radius: 30%;
+    height: 250px;
+}
+.conteudProg{
+    margin-top: -185px;
+    background-color: #f6f6f6;
+    width: 100%;
+    color: black;
+    min-height: 100vh;
+    flex-direction: column; 
+    padding-bottom: 35px;
+}
+.datas{
+    flex-direction: row;
+    margin: 0;
+    width: 80%;
+    margin-bottom: 15px;
+}
+#botao1, #botao2, #botao3, #botao4, #botao5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: #dfe4ea;
+    width: 40%;
+    margin:-2px;
+    outline: none;
+}
+#botao1{
+    background-color: #b2bec3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+} 
+#botao2, #botao3, #botao4{
+    border-left: 1px solid black;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+#botao5{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 1px solid black;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}  
+#progInd{
+    width: 600px;
+    background-color: #f6f6f6;
+    flex-direction: row;
+}
+#icone{
+    height: 70px;
+}
+#descProg{
+    width: 450px;
+    border-left: 3px solid #FFCC29;
+    border-top: 2px solid #dfe4ea;
+    border-right: 2px solid #dfe4ea;
+    border-bottom: 2px solid #dfe4ea;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    margin-left: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#tituloProg{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#horario{
+    color: #FFCC29;
+    font-weight: bolder;
+}
+
+#responsavel{
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+#link-meet{
+    background-color: #FFCC29;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#inscrever{
+    text-decoration: none;
+    background-color: #FFCC29;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/*
+    -------- CSS ORGANIZAÇÃO --------
+*/
+.equipe{
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.tudo{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: black;
+}
+
+#membro{
+    position: relative;
+}
+
+.tudo img{
+    width: 250px;
+    margin: 15px 15px 30px 15px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(20%);
+}
+
+.tudo span{    
+    position:absolute;
+    bottom:40px;
+    left: 0;
+    transition: .5s ease;
+    text-align: center;
+    opacity:0;    
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(0,0,0, 0.5);
+}
+.tudo img:hover span{    
+    opacity:1;
+}
+
+
+/*
+    -------- CSS FOOTER --------
+*/
+footer{
+    background-color: black;
+    padding-top: 30px;
+    text-align: center;
+}
+.primeiradiv{
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 100vw solid #FFCC29;
+}
+
+.conteudodiv{
+    background-color: #FFCC29;
+    font-family: 'Bebas Neue', cursive;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    height: 30px;
+    margin: 10px;
+}
+
+
+/*
+    -------- CSS TELA MENOR --------
+*/
+@media(max-width: 650px){
+nav{
+    padding-top: 0;
+}
+nav a{
+    font-size: 50%;
+}
+.header{
+    margin: 20px;
+}
+.header p{
+    font-size: 35px;
+}
+.numero{
+    font-size: 32px;
+}
+#data{    
+    width: 80%;
+}
+#divTxt{
+    text-align: center;
+}
+#divTxt p{
+    text-align: center;
+}
+#progInd{
+    width: 300px;
+}
+#img_sobre{
+    width: 300px;
+}
+#link-meet{
+    font-size: 12px;
+}
+}

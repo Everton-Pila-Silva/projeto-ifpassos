@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF ++ 2021</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image / x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image / x-icon">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body onLoad="regressiva()">
+    <!-- 
+         ------------------------------------------------
+         --------------------- MENU ---------------------
+         ------------------------------------------------         
+    -->
+    <nav>
+        <li><a onclick="descer('sobre')">Encomp</a></li>
+        <li><a href="#" onclick="descer('programacao')">Programação</a></li>
+        <li><a href="#" onclick="descer('equipe')">Equipe</a></li>
+        <!-- <li><a href="https://www.even3.com.br/viencomp/" target="_blank">Inscrições</a></li>-->
+    </nav>
+
+    <!-- 
+         --------------------------------------------------
+         --------------------- HEADER ---------------------
+         --------------------------------------------------         
+    -->
+    <section class="header">
+        <img id="logotipo" src="img/logo.png" style="width: 20%;">
+        <p id="eventoOnline"> Evento Online </p>
+        <p> 28/09 a 02/10 </p>
+
+        <div>
+            <table class="contagem">
+                <tr>
+                    <td>
+                        <div class="numero" id="dia"></div>
+                    </td>
+                    <td>
+                        <div class="numero" id="hora"></div>
+                    </td>
+                    <td>
+                        <div class="numero" id="minuto"></div>
+                    </td>
+                    <td>
+                        <div class="numero" id="segundo"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="subHours">Dias</div>
+                    </td>
+                    <td>
+                        <div class="subHours">Horas</div> 
+                    </td>
+                    <td>
+                        <div class="subHours">Min</div> 
+                    </td>
+                    <td>
+                        <div class="subHours">Sec</div> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 
+         -------------------------------------------------
+         --------------------- SOBRE ---------------------
+         -------------------------------------------------         
+    -->
+    <section class="sobre">
+        <h2 id="titulo"> O que é o Encomp</h2>
+        <div class="conteudoSbr">
+            <div id="divImg">
+                <img id="img_sobre" src="imagens/time3.png">
+            </div>
+            <div id="divTxt">
+                <p> Encomp é um encontro anual da computação organizado diretamente por professores e alunos do
+                    IFSULDEMINAS - Campus Passos, no qual reúnem minicursos e palestras para compartilhar conhecimentos
+                    e experiências. Este ano será realizado completamente online, do dia 28 de Setembro à 02 de Outubro,
+                    objetivando o incentivo, a curiosidade e a difusão do conhecimento para a comunidade interna do
+                    campus, assim como para toda a comunidade externa, uma vez que o evento é aberto para qualquer
+                    pessoa que se interesse por tecnologia, eletrônica, informática, robótica e que apoiam a cultura de
+                    compartilhar conhecimento e que querem complementar a formação profissional e acadêmica na área da
+                    ciência da computação. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+         -------------------------------------------------------
+         --------------------- PROGRAMAÇÃO ---------------------
+         -------------------------------------------------------         
+    -->
+    <section class="programacao">
+        <div class="arredondado"></div>
+        <div class="conteudProg">
+            <h2 id="titulo"> Programação </h2>
+            <div class="datas">
+                <button id="botao1" onclick="programacao(1)"> 28/09 </button>
+                <button id="botao2" onclick="programacao(2)"> 29/09 </button>
+                <button id="botao3" onclick="programacao(3)"> 30/09 </button>
+                <button id="botao4" onclick="programacao(4)"> 01/10 </button>
+                <button id="botao5" onclick="programacao(5)"> 02/10 </button>
+            </div>
+            <div id="divProg">
+                <div id="progInd">
+                    <img src="imagens/minicurso.png" id="icone">
+                    <div id="descProg">
+                        <p id="tituloProg"> Minicurso Node Js </p>
+                        <p id="horario"> 13:00 - 17:00 </p>
+                        <p id="responsavel"> Instrutor: Jonatan - 4° Período </p>
+                        <a id="link-meet" href="https://drive.google.com/file/d/1RyfIgEgz4u-duvD6209KxCV6R1Ha_8cd/view"
+                            target="_blank"> ASSISTIR GRAVAÇÃO </a>
+                    </div>
+                </div>
+
+                <div id="progInd">
+                    <img src="imagens/minicurso.png" id="icone">
+                    <div id="descProg">
+                        <p id="tituloProg"> Minicurso Computação Quântica </p>
+                        <p id="horario"> 15:00 - 17:00 </p>
+                        <p id="responsavel"> Instrutora: Amanda - 6° Período </p>
+                        <a id="link-meet"
+                            href="https://drive.google.com/file/d/1uXd_xtCKr9fp__1LsYJMDqgH2cEky6Z4/view?usp=sharing"
+                            target="_blank"> ASSISTIR GRAVAÇÃO </a>
+                    </div>
+                </div>
+
+                <div id="progInd">
+                    <img src="imagens/palestra.png" id="icone">
+                    <div id="descProg">
+                        <p id="tituloProg"> Palestra Análise de Negócios </p>
+                        <p id="horario"> 19:00 - 21:00 </p>
+                        <p id="responsavel"> Palestrante: Fabrício Laguna </p>
+                        <a id="link-meet"
+                            href="https://drive.google.com/file/d/1fh4wWElvZaTy6Uv4yXnd5BFhEA_T_C3n/view?usp=sharing"
+                            target="_blank"> ASSISTIR GRAVAÇÃO </a>
+                    </div>
+                </div>
+            </div>
+            <a id="inscrever" href="https://www.even3.com.br/viencomp/" target="_blank"> INSCRIÇÕES ENCERRADAS! </a>
+        </div>
+        </div>
+    </section>
+
+    <!-- 
+         -------------------------------------------------------
+         --------------------- ORGANIZAÇÃO ---------------------
+         -------------------------------------------------------         
+    -->
+    <section class="equipe">
+        <h2 id="titulo"> Equipe </h2>
+        <div class="tudo">
+            <div class="membro" id="albertM">
+                <img src="imagens/albert.png" onmouseover="MostraTexto('albert')" onMouseOut="TiraTexto('albert')">
+                <span id="albert"> Albert Medeiros - 6° período </span>
+            </div>
+            <div class="membro" id="brunoM">
+                <img src="imagens/bruno.png" onmouseover="MostraTexto('bruno')" onMouseOut="TiraTexto('bruno')">
+                <span id="bruno"> Bruno Silveira - 8° período </span>
+            </div>
+            <div class="membro" id="marisaM">
+                <img src="imagens/marisa.png" onmouseover="MostraTexto('marisa')" onMouseOut="TiraTexto('marisa')">
+                <span id="marisa"> Marisa Vieira - 8° período </span>
+            </div>
+            <div class="membro" id="amandaM">
+                <img src="imagens/amanda.png" onmouseover="MostraTexto('amanda')" onMouseOut="TiraTexto('amanda')">
+                <span id="amanda"> Amanda Valério - 6° período </span>
+            </div>
+            <div class="membro" id="matheusM">
+                <img src="imagens/matheus.png" onmouseover="MostraTexto('matheus')" onMouseOut="TiraTexto('matheus')">
+                <span id="matheus"> Matheus Simões - 6° período </span>
+            </div>
+            <div class="membro" id="vanessaM">
+                <img src="imagens/vanessa.png" onmouseover="MostraTexto('vanessa')" onMouseOut="TiraTexto('vanessa')">
+                <span id="vanessa"> Vanessa Rodrigues - 8° período </span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 
+         --------------------------------------------------
+         --------------------- FOOTER ---------------------
+         --------------------------------------------------         
+    -->
+    <footer>
+        <div class="primeiradiv"></div>
+        <div class="conteudodiv">
+            ©2020 Desenvolvido por Organização EnComp 2020
+            <div class="contatos">
+                <a href="https://www.instagram.com/bccpassos/" target="_blank"> <img src="imagens/instagram.png"> </a>
+                <a href="https://www.facebook.com/bcc.passos/" target="_blank"> <img src="imagens/facebook.png"> </a>
+                <a href="mailto:encomp2020@gmail.com" target="_blank"> <img src="imagens/email.png"> </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
