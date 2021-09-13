@@ -6,7 +6,7 @@ function descer(tag){
 }
 
 function regressiva(){
-    var target_date = new Date("october 15, 2021").getTime();
+    var target_date = new Date("october 18, 2021").getTime();
     var dias, horas, minutos, segundos;
     setInterval(function () {        
         var current_date = new Date().getTime();

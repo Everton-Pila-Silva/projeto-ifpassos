@@ -34,7 +34,7 @@ nav{
     background-color: #0973b9;
     color: white;
     width: 100%;
-    height: 40px;
+    height: 50px;
     font-family: 'Bebas Neue', cursive;
     flex-direction: row;
     position: fixed;
@@ -57,14 +57,15 @@ nav li{
     -------- CSS HEADER --------
 */
 .header{
+    background-image:linear-gradient(to bottom right, rgb(224, 224, 224), rgba(9, 9, 66, 0.986), rgba(51, 51, 116, 0.986), rgba(0, 0, 0, 0.986)), url(/img/cool-background.png);
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    background-color: black;
     color: white;
     font-family: 'Bebas Neue', cursive;
     margin: 50px;
 }
+
 .header p{
     font-size: 45px;
     margin: 0;
@@ -72,8 +73,9 @@ nav li{
 }
 #logotipo{
     width: 48vw;
-    color: black;
-    margin-bottom: 40px;
+    color: rgb(134, 120, 120);
+    margin-bottom: 4px;
+    margin-top: 0px;
 } 
 #eventoOnline{
     background-color: #777;
@@ -86,14 +88,14 @@ nav li{
 }
 .numero{
     font-family: 'Orbitron';
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    padding: 5px;
+    padding: 1px;
 }
 .subHours{
     font-size: 25px;
     text-align: center;
-    padding: 5px;
+    padding: 1px;
 }
 .contagem{
     border-collapse: collapse;
@@ -335,7 +337,7 @@ nav a{
     margin: 20px;
 }
 .header p{
-    font-size: 35px;
+    font-size: 25px;
 }
 .numero{
     font-size: 32px;
