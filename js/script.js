@@ -1,9 +1,4 @@
-function descer(tag){
-    targetOffset = $("." + tag).offset().top
-    $("html, body").animate({ 
-		scrollTop: targetOffset - 100
-   }, 800);
-}
+
 
 function regressiva(){
     var target_date = new Date("october 18, 2021").getTime();
