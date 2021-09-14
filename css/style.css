@@ -29,15 +29,8 @@ body, nav, .conteudoSbr, .header, .datas, .conteudProg, #progInd, .tudo, .equipe
 /*
     -------- CSS NAV --------
 */
-.logo{
-            width: 30px; 
 
-}
-.collapse, .navbar-collapse{
-    position: right;
-    float: right;
-    color: red;
-}
+
 .navbar, .fixed-top, .navbar-expand-lg, .navbar-light, .bg-light{
     font-family: 'Bebas Neue', cursive;
     display: flex;
