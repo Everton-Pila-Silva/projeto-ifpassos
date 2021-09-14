@@ -29,28 +29,42 @@ body, nav, .conteudoSbr, .header, .datas, .conteudProg, #progInd, .tudo, .equipe
 /*
     -------- CSS NAV --------
 */
+.logo{
+            width: 30px; 
 
-nav{    
-    background-color: #0973b9;
-    color: white;
-    width: 100%;
-    height: 50px;
+}
+.collapse, .navbar-collapse{
+    position: right;
+    float: right;
+    color: red;
+}
+.navbar, .fixed-top, .navbar-expand-lg, .navbar-light, .bg-light{
     font-family: 'Bebas Neue', cursive;
-    flex-direction: row;
-    position: fixed;
-    top: 0;
-    padding-top: 15px;
-    z-index: 1;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    font-size: 20px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
 }
 nav a{
-    text-decoration: none;
-    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 nav li{
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+    float: left;
     list-style-type: none;
-    margin: 15px;
-    font-size: 200%;
+    font-size: 20px;
 }
 
 /*
@@ -75,7 +89,7 @@ nav li{
     width: 48vw;
     color: rgb(134, 120, 120);
     margin-bottom: 4px;
-    margin-top: 0px;
+   
 } 
 #eventoOnline{
     background-color: #777;
@@ -330,9 +344,6 @@ footer img{
 nav{
     padding-top: 0;
 }
-nav a{
-    font-size: 50%;
-}
 .header{
     margin: 20px;
 }
@@ -341,9 +352,6 @@ nav a{
 }
 .numero{
     font-size: 32px;
-}
-#data{    
-    width: 80%;
 }
 #divTxt{
     text-align: center;
