@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" onclick="descer('sobre')">Informações</a>
+                    <a class="nav-link" href="#item-1" onclick="descer('sobre')">Informações</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" onclick="descer('programacao')">Programação</a>
+                    <a class="nav-link" href="#item-2" onclick="descer('programacao')">Programação</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" onclick="descer('equipe')">Equipe</a>
+                    <a class="nav-link" href="#item-3" onclick="descer('equipe')">Equipe</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="https://www.even3.com.br/viencomp/">Inscrições</a>
@@ -51,7 +51,7 @@
          --------------------------------------------------         
     -->
     <section class="header">
-        <img id="logotipo" src="img/logo.png" style="width: 250px;">
+        <img id="logotipo" src="img/logo.png" style="width: 200px;">
         <p> De 18 a 2 de outubro</p>
         <button class="btn btn-light d-grid gap-2 col-6 mx-auto"> Inscreva-se aqui </button><br><br>
         <div>
@@ -93,7 +93,8 @@
          --------------------- SOBRE ---------------------
          -------------------------------------------------         
     -->
-    <section class="sobre">
+    <div data-spy="scroll" data-target="#navbar-exemplo3" data-offset="0">
+    <section id="item-1">
         <h2 id="titulo"> O que é o IF++</h2>
         <div class="conteudoSbr">
             <div id="divImg">
@@ -117,7 +118,7 @@
          --------------------- PROGRAMAÇÃO ---------------------
          -------------------------------------------------------         
     -->
-    <section class="programacao">
+    <section id="item-2">
         <div class="arredondado"></div>
         <div class="conteudProg">
             <h2 id="titulo"> Programação </h2>
@@ -174,7 +175,7 @@
          --------------------- ORGANIZAÇÃO ---------------------
          -------------------------------------------------------         
     -->
-    <section class="equipe">
+    <section id="item-3">
         <h2 id="titulo"> Equipe </h2>
         <div class="tudo">
             <div class="membro" id="albertM">
@@ -204,7 +205,7 @@
         </div>
 
     </section>
-
+</div>
     <!-- 
          --------------------------------------------------
          --------------------- FOOTER ---------------------
