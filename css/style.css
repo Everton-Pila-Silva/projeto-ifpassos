@@ -70,7 +70,6 @@ nav li{
     -------- CSS HEADER --------
 */
 .header{
-    background-image:linear-gradient(to bottom right, rgb(224, 224, 224), rgba(9, 9, 66, 0.986), rgba(51, 51, 116, 0.986), rgba(0, 0, 0, 0.986)), url(/img/cool-background.png);
     height: 100vh;
     width: 100%;
     flex-direction: column;
