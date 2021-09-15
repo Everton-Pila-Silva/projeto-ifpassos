@@ -317,11 +317,11 @@ footer{
     width: 0;
     height: 0;
     border-top: 60px solid transparent;
-    border-right: 100vw solid #FFCC29;
+    border-right: 100vw solid #eeeeee;
 }
 
 .conteudodiv{
-    background-color: #FFCC29;
+    background-color: #eeeeee;
     font-family: 'Bebas Neue', cursive;
 }
 

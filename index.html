@@ -6,11 +6,11 @@
     <title>IF ++ 2021</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image / x-icon">
     <link rel="icon" href="img/favicon.ico" type="image / x-icon">
-    <link href="css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
    <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
@@ -30,16 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#item-1" onclick="descer('sobre')">Informações</a>
+                    <a class="nav-link" href="#item-1" >Informações</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#item-2" onclick="descer('programacao')">Programação</a>
+                    <a class="nav-link" href="#item-2" >Programação</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#item-3" onclick="descer('equipe')">Equipe</a>
+                    <a class="nav-link" href="#item-3" >Equipe</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://www.even3.com.br/viencomp/">Inscrições</a>
+                    <a class="nav-link" href="https://www.even3.com.br/">Inscrições</a>
                 </li>
                 <li>
                     <a href="#"><img src="img/face.png" class="d-inline-block align-top" width="45" height="45"></a>
@@ -56,9 +56,9 @@
          --------------------- HEADER ---------------------
          --------------------------------------------------         
     -->
-    <section class="header"  style="background-image: url(img/fundo-2.gif);">
+    <section class="header" style="background-image: url(img/fundo-4.gif); background-repeat: no-repeat; background-size: cover;">
         <img id="logotipo" src="img/logo.png" style="width: 200px;">
-        <p> De 18 a 2 de outubro</p>
+        <p> De 18 a 22 de outubro</p>
         <button class="btn btn-light d-grid gap-2 col-6 mx-auto"> Inscreva-se aqui </button><br><br>
         <div>
             <table class="contagem">
@@ -107,9 +107,9 @@
                 <img id="img_sobre" src="img/time3.png">
             </div>
             <div id="divTxt">
-                <p> Encomp é um encontro anual da computação organizado diretamente por professores e alunos do
-                    IFSULDEMINAS - Campus Passos, no qual reúnem minicursos e palestras para compartilhar conhecimentos
-                    e experiências. Este ano será realizado completamente online, do dia 28 de Setembro à 02 de Outubro,
+                <p> IF++ é um encontro relacionado a tecnologia organizado diretamente por professores e alunos do
+                    IFSULDEMINAS, no qual reúnem minicursos e palestras para compartilhar conhecimentos
+                    e experiências. Este ano será realizado completamente online, do dia 18 a 22 de Outubro,
                     objetivando o incentivo, a curiosidade e a difusão do conhecimento para a comunidade interna do
                     campus, assim como para toda a comunidade externa, uma vez que o evento é aberto para qualquer
                     pessoa que se interesse por tecnologia, eletrônica, informática, robótica e que apoiam a cultura de
@@ -129,11 +129,11 @@
         <div class="conteudProg">
             <h2 id="titulo"> Programação </h2>
             <div class="datas">
-                <button id="botao1" onclick="programacao(1)"> 28/09 </button>
-                <button id="botao2" onclick="programacao(2)"> 29/09 </button>
-                <button id="botao3" onclick="programacao(3)"> 30/09 </button>
-                <button id="botao4" onclick="programacao(4)"> 01/10 </button>
-                <button id="botao5" onclick="programacao(5)"> 02/10 </button>
+                <button id="botao1" onclick="programacao(1)"> 18/10 </button>
+                <button id="botao2" onclick="programacao(2)"> 19/10 </button>
+                <button id="botao3" onclick="programacao(3)"> 20/10 </button>
+                <button id="botao4" onclick="programacao(4)"> 21/10 </button>
+                <button id="botao5" onclick="programacao(5)"> 22/10 </button>
             </div>
             <div id="divProg">
                 <div id="progInd">
@@ -181,7 +181,7 @@
          --------------------- ORGANIZAÇÃO ---------------------
          -------------------------------------------------------         
     -->
-    <section id="item-3">
+<!-- <section id="item-3">
         <h2 id="titulo"> Equipe </h2>
         <div class="tudo">
             <div class="membro" id="albertM">
@@ -212,6 +212,7 @@
 
     </section>
 </div>
+-->
     <!-- 
          --------------------------------------------------
          --------------------- FOOTER ---------------------
@@ -220,11 +221,11 @@
     <footer>
         <div class="primeiradiv"></div>
         <div class="conteudodiv">
-            ©2020 Desenvolvido por Organização EnComp 2020
+            ©2021 Desenvolvido por Everton P Silva
             <div class="contatos">
-                <a href="https://www.instagram.com/bccpassos/" target="_blank"> <img src="img/instagram.png"> </a>
-                <a href="https://www.facebook.com/bcc.passos/" target="_blank"> <img src="img/facebook.png"> </a>
-                <a href="mailto:encomp2020@gmail.com" target="_blank"> <img src="img/email.png"> </a>
+                <a href="https://www.instagram.com/bccpassos/" target="_blank"> <img src="img/insta.png"> </a>
+                <a href="https://www.facebook.com/bcc.passos/" target="_blank"> <img src="img/face.png"> </a>
+                <a href="mailto:encomp2020@gmail.com" target="_blank"> <img src="img/instagram.png"> </a>
             </div>
         </div>
     </footer>
