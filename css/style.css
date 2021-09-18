@@ -391,6 +391,13 @@ nav{
     justify-content: center;
     align-items: center;
 }
+#divImg{
+    width: 80vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
 #divTxt{
     width: 80vw;
     display: flex;
