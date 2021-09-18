@@ -27,8 +27,8 @@ function regressiva(){
         segundos = parseInt(segundos_f % 60);
 
         document.getElementById('dia').innerHTML =dias;
-        document.getElementById('hora').innerHTML =horas;
-        document.getElementById('minuto').innerHTML =minutos;
+        document.getElementById('hora').innerHTML =horas + " : ";
+        document.getElementById('minuto').innerHTML =minutos + " : ";
         document.getElementById('segundo').innerHTML =segundos;  
     }, 1000);
 }

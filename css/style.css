@@ -78,11 +78,6 @@ nav li{
     margin: 50px;
 }
 
-.header p{
-    font-size: 45px;
-    margin: 0;
-    max-width: 110vh;
-}
 #logotipo{
     width: 48vw;
     color: rgb(134, 120, 120);
@@ -98,21 +93,49 @@ nav li{
     font-size: 32px;
     margin-bottom: 30px;    
 }
+
+.btn, .btn-outline-light, .d-grid, .gap-2, .col-6, .mx-auto{
+    height: 10%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
 .numero{
     font-family: 'Orbitron';
     font-size: 25px;
     text-align: center;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
     padding: 1px;
 }
 .subHours{
     font-size: 25px;
     text-align: center;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
     padding: 1px;
 }
 .contagem{
     border-collapse: collapse;
     border-spacing: 0;
 }
+.nav-link{
+    font-size: 22px;
+}
+.header p{
+    font-size: 30px;
+    color: rgb(255, 255, 255); 
+    
+    text-shadow: black 0.2em 0.2em 0.4em;
+}
+    .subscribe{
+    font-size: 10px;
+    text-align: center;
+    float: left;
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    }
 
 /*
     -------- CSS SOBRE --------
@@ -171,7 +194,7 @@ nav li{
     flex-direction: column; 
     padding-bottom: 35px;
 }
-.datas{
+.datas, .d-grid, .gap-2, .d-md-block{
     flex-direction: row;
     margin: 0;
     width: 80%;
@@ -182,7 +205,6 @@ nav li{
     font-size: 20px;
     background-color: #dfe4ea;
     width: 40%;
-    margin:-2px;
     outline: none;
 }
 #botao1{
@@ -346,10 +368,10 @@ nav{
     margin: 20px;
 }
 .header p{
-    font-size: 25px;
+    font-size: 30px;
 }
 .numero{
-    font-size: 32px;
+    font-size: 25px;
 }
 #divTxt{
     text-align: center;
