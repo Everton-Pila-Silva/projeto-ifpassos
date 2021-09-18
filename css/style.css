@@ -125,12 +125,11 @@ nav li{
 }
 .header p{
     font-size: 30px;
-    color: rgb(255, 255, 255); 
-    
-    text-shadow: black 0.2em 0.2em 0.4em;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 }
     .subscribe{
     font-size: 10px;
+    color: rgb(255, 255, 255); 
     text-align: center;
     float: left;
     position: relative;
@@ -172,23 +171,24 @@ nav li{
     width: 400px;
 }
 
+
 /*
     -------- CSS PROGRAMAÇÃO --------
 */
 .programacao{
-    background-color: #f6f6f6;
+    background-color: #a3a3a3;
     width: 100%; 
     font-family: 'Lato', sans-serif;
 }
 .arredondado{
-    background-color: #f6f6f6;
+    background-color: #a3a3a3;
     border-top-right-radius: 30%;
     height: 250px;
 }
 .conteudProg{
     margin-top: -185px;
-    background-color: #f6f6f6;
-    width: 100%;
+    background-color: #a3a3a3;
+    width: 100vw;
     color: black;
     min-height: 100vh;
     flex-direction: column; 
@@ -203,18 +203,18 @@ nav li{
 #botao1, #botao2, #botao3, #botao4, #botao5{
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
-    background-color: #dfe4ea;
+    background-color: #000000;
     width: 40%;
     outline: none;
 }
 #botao1{
-    background-color: #b2bec3;
+    background-color: #000000;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: none;
 } 
 #botao2, #botao3, #botao4{
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(255, 255, 255);
     border-right: none;
     border-top: none;
     border-bottom: none;
@@ -222,22 +222,22 @@ nav li{
 #botao5{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(255, 255, 255);
     border-right: none;
     border-top: none;
     border-bottom: none;
 }  
 #progInd{
     width: 600px;
-    background-color: #f6f6f6;
+    background-color: #a3a3a3;
     flex-direction: row;
 }
 #icone{
-    height: 70px;
+    height: 80px;
 }
 #descProg{
     width: 450px;
-    border-left: 3px solid #FFCC29;
+    border-left: 3px solid #000f92;
     border-top: 2px solid #dfe4ea;
     border-right: 2px solid #dfe4ea;
     border-bottom: 2px solid #dfe4ea;
@@ -254,7 +254,7 @@ nav li{
 }
 
 #horario{
-    color: #FFCC29;
+    color: #000f92;
     font-weight: bolder;
 }
 
@@ -264,8 +264,8 @@ nav li{
 }
 
 #link-meet{
-    background-color: #FFCC29;
-    color: black;
+    background-color: #000f92;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
     font-weight: bolder;
@@ -275,8 +275,8 @@ nav li{
 
 #inscrever{
     text-decoration: none;
-    background-color: #FFCC29;
-    color: black;
+    background-color: #000f92;
+    color: rgb(255, 255, 255);
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     padding: 15px;
@@ -288,7 +288,7 @@ nav li{
 */
 .equipe{
     flex-direction: column;
-    background-color: black;
+    background-color: #a3a3a3;
     color: white;
     width: 100%;
 }
@@ -331,7 +331,7 @@ nav li{
     -------- CSS FOOTER --------
 */
 footer{
-    background-color: black;
+    background-color: #a3a3a3;
     padding-top: 30px;
     text-align: center;
 }
@@ -339,11 +339,12 @@ footer{
     width: 0;
     height: 0;
     border-top: 60px solid transparent;
-    border-right: 100vw solid #eeeeee;
+    border-right: 100vw solid #000000;
 }
 
 .conteudodiv{
-    background-color: #eeeeee;
+    background-color: #000000;
+    color: white;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -370,21 +371,45 @@ nav{
 .header p{
     font-size: 30px;
 }
+.logotipo{
+    width: 100px;
+}
 .numero{
     font-size: 25px;
 }
+#img_sobre{
+    width: 80vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.conteudoSbr{
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
 #divTxt{
-    text-align: center;
+    width: 80vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
 }
 #divTxt p{
-    text-align: center;
+    text-align: justify;
+    width: 300vw;
+}
+#conteudProg{
+    width: 100%;
+    background-color: #555;
 }
 #progInd{
     width: 300px;
 }
-#img_sobre{
-    width: 300px;
-}
+
 #link-meet{
     font-size: 12px;
 }
