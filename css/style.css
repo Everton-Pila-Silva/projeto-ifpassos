@@ -123,6 +123,9 @@ nav li{
 .nav-link{
     font-size: 22px;
 }
+.header p{
+    font-size: 30px;
+}
 .header a{
     font-size: 30px;
     text-decoration: none;
