@@ -135,7 +135,9 @@ nav li{
 .header a:hover {
     color: #c8cee7;
 }
-
+.header a:link {
+    color: #c8cee7;
+}
 .subscribe{
     font-size: 10px;
     color: rgb(255, 255, 255); 
