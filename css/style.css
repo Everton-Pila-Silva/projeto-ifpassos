@@ -12,7 +12,7 @@ html, body{
     overflow-x: hidden;
 }
 
-body, nav, .conteudoSbr, .header, .datas, .conteudProg, #progInd, .tudo, .equipe{
+body, nav, .conteudoSbr, .headerSec, .datas, .conteudProg, #progInd, .tudo, .equipe{
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ body, nav, .conteudoSbr, .header, .datas, .conteudProg, #progInd, .tudo, .equipe
     font-family: 'Lato', sans-serif;
     font-size: 50px;
     text-align: center;
-    padding-bottom: 5px;
+    padding-top: 30px;
 }
 
 /*
@@ -69,17 +69,17 @@ nav li{
 /*
     -------- CSS HEADER --------
 */
-.header{
+.headerSec {
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    color: white;
     font-family: 'Bebas Neue', cursive;
-    margin: 50px;
+    margin: 0;
 }
 
+
 #logotipo{
-    width: 48vw;
+    width: 35vh;
     color: rgb(134, 120, 120);
     margin-bottom: 4px;
    
@@ -94,13 +94,19 @@ nav li{
     margin-bottom: 30px;    
 }
 
-.btn, .btn-outline-light, .d-grid, .gap-2, .col-6, .mx-auto{
-    height: 10%;
-    display: flex;
+.insc {
+    font-size: 20px;
+}
+.btn, .btn-outline-light{
+   width: 50vh;
+   height: 12vh;
+   display: flex;
+   justify-items: center;
    justify-content: center;
    align-items: center;
-
 }
+
+
 .numero{
     font-family: 'Orbitron';
     font-size: 25px;
@@ -123,31 +129,34 @@ nav li{
 .nav-link{
     font-size: 22px;
 }
-.header p{
+.headerSec p{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+.headerSec a{
     font-size: 30px;
+    
 }
-.header a{
-    font-size: 30px;
-    text-decoration: none;
-    color: inherit;
-    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
-}
-.header a:hover {
+.headerSec a:hover {
     color: #c8cee7;
-}
-.header a:link {
-    color: #c8cee7;
+    opacity: 1;
 }
 
-.header a:visited {
+.header a:link {
+    color: #c8cee7;
+    opacity: 1;
+}
+
+.headerSec a:visited {
     color: #c8cee7;
 }
 
 .subscribe{
-    font-size: 10px;
+    font-size: 30px;
     color: rgb(255, 255, 255); 
     text-align: center;
-    float: left;
+    float: center;
     position: relative;
     font-family: 'Bebas Neue', cursive;
     }
@@ -384,14 +393,14 @@ footer img{
 nav{
     padding-top: 0;
 }
-.header{
+.headerSec{
     margin: 20px;
 }
-.header p{
-    font-size: 30px;
+.headerSec p{
+    font-size: 35px;
 }
-.logotipo{
-    width: 100px;
+#logotipo{
+    width: 190px;
 }
 .numero{
     font-size: 25px;

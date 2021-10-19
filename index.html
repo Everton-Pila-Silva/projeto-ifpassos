@@ -69,13 +69,13 @@
          --------------------- HEADER ---------------------
          --------------------------------------------------         
     -->
-    <section class="header"
+    <section class="headerSec"
         style="background-image: url(img/fundo-3.gif); background-repeat: no-repeat; background-size: cover;">
-        <img id="logotipo" src="img/logo.png" style="width: 190px;">
-        <p class="date"> De 18 a 22 de outubro</p><br>
-        <button class="btn btn-outline-light d-grid gap-2 col-6 mx-0">
-            <a href="https://www.even3.com.br/ifmaismais/" target="_blank" class="subscribe">Inscreva-se</a>
-        </button><br><br>
+        <img id="logotipo" class="logotipo" src="img/logo.png">
+        <p class="date"> De 18 a 22 de outubro </p>
+        <form class="subscribe" action="https://www.even3.com.br/ifmaismais/">
+            <button class="btn btn-outline-light" type="submit"><a>Inscreva-se</a></button>
+        </form> <br><br>
         <div>
            <!-- <p class="info"> É Hoje! </p> --> 
         </div>
@@ -87,7 +87,8 @@
          -------------------------------------------------         
     -->
     <div data-spy="scroll" data-target="#navbar-exemplo3" data-offset="0">
-        <section id="item-1">
+        <div id="item-1"></div><br><br>
+        <section>
             <h2 id="titulo"> O que é o IF++</h2>
             <div class="conteudoSbr">
                 <div id="divImg">
@@ -107,6 +108,7 @@
                     </p>
                 </div>
             </div>
+            <div></div><br>
         </section>
 
         <!-- 
@@ -131,7 +133,7 @@
                             <p id="tituloProg"> Palestra: RSSF - o elo fraco da IoT </p>
                             <p id="horario"> 19:00 - 20:00 </p>
                             <p id="responsavel"> Prof. Omar Branquinho</p> <a id="link-meet"
-                                href="https://meet.google.com/pif-wvqc-jjq" target="_blank"> Assistir </a>
+                                href="https://meet.google.com/pif-wvqc-jjq" target="_blank"> ASSISTIR </a>
                         </div>
                     </div>
                     <div id="progInd"> <img src="img/rodadeconversa.png" id="icone">
