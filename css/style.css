@@ -98,7 +98,7 @@ nav li{
     font-size: 20px;
 }
 .btn, .btn-outline-light{
-   width: 50vh;
+   width: 80vh;
    height: 12vh;
    display: flex;
    justify-items: center;
@@ -223,13 +223,13 @@ nav li{
 .datas, .d-grid, .gap-2, .d-md-block{
     flex-direction: row;
     margin: 0;
-    width: 70vw;
+    width: 75%;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 #botao1, #botao2, #botao3, #botao4, #botao5{
     font-family: 'Bebas Neue', cursive;
-    font-size: 4vh;
+    font-size: 3vh;
     background-color: #000000;
     width: 40%;
     height: 8vh;
@@ -407,6 +407,15 @@ nav{
 .numero{
     font-size: 25px;
 }
+
+.btn, .btn-outline-light{
+    width: 55vw;
+    height: 12vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+ }
 #img_sobre{
     width: 80vw;
     display: flex;
