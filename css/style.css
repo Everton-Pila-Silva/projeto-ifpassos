@@ -223,14 +223,16 @@ nav li{
 .datas, .d-grid, .gap-2, .d-md-block{
     flex-direction: row;
     margin: 0;
-    width: 80%;
+    width: 70vw;
+    margin-top: 30px;
     margin-bottom: 15px;
 }
 #botao1, #botao2, #botao3, #botao4, #botao5{
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 4vh;
     background-color: #000000;
     width: 40%;
+    height: 8vh;
     outline: none;
 }
 #botao1{
