@@ -56,7 +56,7 @@ function programacao(numero){
         document.getElementById('botao3').style.background="#000000";
         document.getElementById('botao4').style.background="#000000";
         document.getElementById('botao5').style.background="#000f92";
-        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="img/rodadeconversa.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Roda de conversa com Alunos e Ex-Alunos </p> <p id="horario"> 19:00 - 20:30 </p> <p id="responsavel"> Alunos e Ex-alunos do IF </p> <a id="link-meet" href="https://meet.google.com/ciw-emdv-jus" target="_blank"> ASSISTIR </a> </div> </div> </div>';
+        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="img/rodadeconversa.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Roda de conversa com Alunos e Ex-Alunos </p> <p id="horario"> 19:00 - 20:30 </p> <p id="responsavel"> Alunos e Ex-alunos do IF </p> <a id="link-meet" href="https://drive.google.com/file/d/1sTTK-sQUlie3Z0juJY1N1m17gQ1NDNmV/view?usp=sharing" target="_blank"> ASSISTIR GRAVAÇÃO </a> </div> </div> </div>';
     }   
 }
 
